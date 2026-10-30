@@ -21,3 +21,7 @@
 .seo-foot strong{flex-basis:100%}
 .seo-foot a{text-decoration:underline;text-underline-offset:2px;opacity:.9}
 .agency-phone-text{display:inline-flex;align-items:center;gap:6px}
+.post{max-width:760px}
+.post h2{margin-top:1.8em}
+.post .sub,.post li{line-height:1.7}
+.postmeta{font-size:.9rem;opacity:.75;margin:0 0 1.2em}
