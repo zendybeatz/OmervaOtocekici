@@ -1,0 +1,23 @@
+/* Sakarya SEO sayfaları için ek stiller (style.css'e dokunmadan üstüne eklenir) */
+.crumbs{padding-top:14px;padding-bottom:6px;font-size:.88rem;opacity:.85}
+.crumbs a{text-decoration:underline;text-underline-offset:2px}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
+.areas article{border:1px solid rgba(128,128,128,.3);border-radius:10px;padding:16px}
+.areas h3{margin:0 0 6px;font-size:1.1rem}
+.areas h3 a{text-decoration:underline;text-underline-offset:3px}
+.areas p{margin:0;font-size:.95rem;line-height:1.55}
+.steps{counter-reset:s;list-style:none;padding:0;margin:20px 0 0;display:grid;gap:12px}
+.steps li{counter-increment:s;padding-left:46px;position:relative;line-height:1.55}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:#E8B62C;color:#1A2138;font-weight:700;display:flex;align-items:center;justify-content:center}
+.faq details{border-bottom:1px solid rgba(128,128,128,.3);padding:14px 0}
+.faq summary{cursor:pointer;font-weight:600;font-size:1.05rem}
+.faq p{margin:10px 0 0;line-height:1.6}
+.callout{border-left:4px solid #E8B62C;padding:14px 16px;border-radius:6px;background:rgba(232,182,44,.14);margin:18px 0 0;line-height:1.6}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0;padding:0;list-style:none}
+.chips a,.chips .chip-plain{display:inline-block;padding:8px 14px;border:1px solid rgba(128,128,128,.4);border-radius:999px}
+.chips a{text-decoration:none;font-weight:600}
+.chips .chip-plain{opacity:.75}
+.seo-foot{display:flex;flex-wrap:wrap;gap:6px 16px;padding-top:18px;padding-bottom:18px;font-size:.9rem;line-height:1.6}
+.seo-foot strong{flex-basis:100%}
+.seo-foot a{text-decoration:underline;text-underline-offset:2px;opacity:.9}
+.agency-phone-text{display:inline-flex;align-items:center;gap:6px}
