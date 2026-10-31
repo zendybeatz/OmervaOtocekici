@@ -27,3 +27,12 @@
 .postmeta{font-size:.9rem;opacity:.75;margin:0 0 1.2em}
 
 .prose p{max-width:68ch;margin:0 0 16px;line-height:1.7}.prose h3{margin:26px 0 10px;font-size:1.25rem}.prose .bul{margin:0 0 18px 20px;max-width:68ch;line-height:1.7}.prose .bul li{margin-bottom:6px}.prose a{font-weight:600}
+
+.revs{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin:26px 0 22px}
+.rev{margin:0;padding:22px;border:1px solid rgba(128,128,128,.35);border-radius:14px}
+.rev-stars{color:#e3b85c;font-size:1.25rem;letter-spacing:.12em}
+.rev blockquote{margin:12px 0 16px;font-size:1.08rem;line-height:1.6}
+.rev figcaption{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.92rem}
+.rev figcaption span{opacity:.7}
+.rev-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.rev-cta p{margin:0;opacity:.75;max-width:48ch}
